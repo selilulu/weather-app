@@ -11,11 +11,15 @@ form{
 
 
 
-input ,label:hover{
+input {
 
 
     border-radius: 16px;
-    color:blue;
+    color:rgb(14, 14, 155);
 
-    background-color:wheat;
+    background-color:rgba(22, 19, 13, 0.336);
+}
+label:hover{
+
+    color: blue;
 }
