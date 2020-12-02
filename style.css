@@ -1,3 +1,7 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body{
     background:linear-gradient(to left,rgba(255, 255, 0, 0.658),white,rgba(18, 226, 191, 0.733))
 } 
@@ -19,7 +23,7 @@ input {
 
     background-color:rgba(22, 19, 13, 0.336);
 }
-label:hover{
+input:hover{
 
-    color: blue;
+    color: rgb(255, 0, 170);
 }
