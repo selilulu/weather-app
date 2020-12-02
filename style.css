@@ -1,0 +1,21 @@
+body{
+    background:linear-gradient(to left,rgba(255, 255, 0, 0.658),white,rgba(18, 226, 191, 0.733))
+} 
+
+
+form{
+    text-align: center;
+    height: 100vh;
+    line-height: 100vh;
+}
+
+
+
+input ,label:hover{
+
+
+    border-radius: 16px;
+    color:blue;
+
+    background-color:wheat;
+}
