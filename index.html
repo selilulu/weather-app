@@ -8,21 +8,80 @@
 </head>
 <body>
 
-    <div id="weather">
-        <div id="description"></div>
-        <h1 id="temp"></h1>
-        <div id="location"></div>
-        <!-- <div id="latitute"></div> -->
-        <div id="icon"><img id="image" src="./icons/." alt=""></div>
+    <h3>Weather Forecast</h3>
+    <!-- <div id="weather">
+      <div class="box">
+         <div id="location"></div>
+         <h1 id="temp"></h1>
+         <div id="description"></div>
+         <div id="date"></div>
       </div>
+    </div>
+         <div id="icon"><img id="image" src="./icons/." alt=""></div> -->
 
-   <form action="">
-    <label for="city">City</label>
-    <input type="text" name="city" id="city">
-    <input type="submit" value="Get Forecast" id="run">
+    <div class="forms">
+       <form action="">
+
+            <label for="city"></label>
+            <input type="text" name="city" id="city" placeholder="Enter a City..">
+            <input type="submit" value="Enter" id="run">
+    
+         </form>
+    </div>
+
+
+   <div id="forecast-result">
+
+
+            <div class="fivedaysbox one">
+                <div class="date date1"></div>
+                <div class="location loc1"></div>
+                <div class="temp temp1"></div>
+                <img src="" alt="" id="firstimg">
+                
+                <div class="description des1"></div>
+            </div>
+            <div class="fivedaysbox two">
+                <div class="date date2"></div>
+                <div class="location loc2"></div>
+                <div class="temp temp2"></div>
+                <img src="" alt="" id="secondimg">
+
+                
+                <div class="description des2"></div>
+            </div>
+            <div class="fivedaysbox three">
+                <div class="date date3"></div>
+                <div class="location loc3"></div>
+                <div class="temp temp3"></div>
+                <div class="description des3"></div>
+                <img src="" alt="" id="thirdimg">
+
+            </div>
+            <div class="fivedaysbox four">
+                <div class="date date4"></div>
+                <div class="location loc4"></div>
+                <div class="temp temp4"></div>
+                <div class="description des4"></div>
+                <img src="" alt="" id="fourthimg">
+
+            </div>
+            <div class="fivedaysbox five">
+                <div class="date date5"></div>
+                <div class="location loc5"></div>
+                <div class="temp temp5"></div>
+                <div class="description des5"></div>
+                <img src="" alt="" id="fifthimg">
+
+            </div>
 
     
-   </form>
+    </div>
+
+
+
+   </div>
+   
   
     
 
